@@ -1,7 +1,7 @@
 $(function() {
     $.ajax({
 
-        url: 'http://localhost/pi/pi_data.php',
+        url: 'http://localhost/piweb/pi_data.php',
         type: 'GET',
         success: function(data) {
             chartData = data;
