@@ -7,13 +7,13 @@
     "test": "NODE_ENV=development nodemon ./bin/www"
   },
   "dependencies": {
-    "express": "*",
-    "static-favicon": "*",
-    "morgan": "*",
-    "cookie-parser": "*",
     "body-parser": "*",
+    "cookie-parser": "*",
     "debug": "*",
-    "jade": "*"
+    "express": "*",
+    "morgan": "*",
+    "static-favicon": "*",
+    "sublime": "^1.2.1"
   },
   "devDependencies": {
     "body-parser": "^1.15.0",
